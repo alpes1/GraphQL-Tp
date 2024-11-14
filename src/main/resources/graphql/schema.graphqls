@@ -1,0 +1,4 @@
+type Mutation{
+    saveVideo(video: Video): Video
+    saveCreator(creator: Creator): Creator
+}
