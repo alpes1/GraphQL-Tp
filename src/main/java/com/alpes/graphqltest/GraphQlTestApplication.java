@@ -18,8 +18,8 @@ public class GraphQlTestApplication {
         SpringApplication.run(GraphQlTestApplication.class, args);
     }
 
-    @Bean
-    CommandLineRunner start(CreatorRepository creatorRepository, VideoRepository videoRepository) {
+   // @Bean
+   /* CommandLineRunner start(CreatorRepository creatorRepository, VideoRepository videoRepository) {
         return args -> {
             List<Creator> creators = List.of(
                     Creator.builder().name("alpes lp").build(),
@@ -39,7 +39,7 @@ public class GraphQlTestApplication {
 
             // Save all videos to the repository
             videoRepository.saveAll(videos);
-        };
+        };*/
     }
-}
+
 
